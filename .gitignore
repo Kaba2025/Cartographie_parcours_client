@@ -1,0 +1,23 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets (ne jamais publier)
+.env
+.streamlit/secrets.toml
+
+# Fichiers temporaires Excel
+~$*.xlsx
